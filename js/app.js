@@ -16,7 +16,7 @@ const isLiked = (id) => {
 };
 
 const addToLiked = (id) => {
-     isLiked(id); 
+  likedPostsId.push(id); 
     showPosts(posts);
 };
 
@@ -163,5 +163,7 @@ const loadPosts = async () =>{
 }
 
 loadPosts();
+
+
 
 
